@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+    margin: auto;
+}
+.cabeçario{
+    background-color: #303030;
+    color:#FFFFFF;
+    max-width: 100%;
+    padding: 5%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;    
+}
+.dados{
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+    columns: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 768px){
+    .dados{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.História{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    padding: auto;
+
+}
+.História div{
+    
+    padding-left:25px;
+    padding-right: 100px;
+
+}
+img{
+    padding-right: 50px;
+    margin: auto;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .História{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+    background-color: #303030;
+    max-width: 100%;
+    padding-top: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.form h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+input{
+    width: 413px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin: 25px;
+    border:0px;
+    padding-left: 10px;
+}
+
+button{
+    margin: 25px;
+    width: 260px;
+    height: 50px;
+    top: 1955px;
+    left: 577px;
+    border-radius: 10px;
+    border:0px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: #f88d0b;
+    color: black;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #d8ad7f4c ;
+    transition-duration: 0.5s;
+}
+
